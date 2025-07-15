@@ -1,0 +1,17 @@
+---
+import Logo from "../assets/Logo.svg"
+import { Icon } from "astro-icon/components"
+---
+
+<nav class="justify-between flex p-4">
+  <Logo />
+
+  <ul class="flex gap-3">
+    <a
+      href="https://github.com/vdawg-git/frosty-flakes"
+      class="text-slate-300 hover:text-slate-50 transition-colors active:scale-105"
+    >
+      <Icon name="uil:github" size={32} />
+    </a>
+  </ul>
+</nav>

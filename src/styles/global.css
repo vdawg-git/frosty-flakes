@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #101012;
+}
+
+html, body {
+  background: var(--color-black);
+  color: var(--color-white);
+}
