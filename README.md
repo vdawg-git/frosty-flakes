@@ -1,6 +1,4 @@
-[Logo]( ./src/assets/Logo.svg )
-
-# Frosty Flakes
+<img src="src/assets/Logo.svg" width="460px" />
 
 ## 🧞 Commands
 
