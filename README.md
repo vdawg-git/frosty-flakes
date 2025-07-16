@@ -1,5 +1,7 @@
 <img src="src/assets/Logo.svg" width="460px" />
 
+WIP, ignore this repo for now. Feel free to star though :P
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
