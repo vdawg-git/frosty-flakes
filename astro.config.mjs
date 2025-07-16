@@ -1,9 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config"
-
 import tailwindcss from "@tailwindcss/vite"
-
-import icon from "astro-icon";
+import icon from "astro-icon"
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,5 +9,13 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  integrations: [icon()]
+  integrations: [icon()],
+
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: "viewport"
+  },
+  experimental: {
+    clientPrerender: true
+  }
 })

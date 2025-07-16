@@ -2,7 +2,7 @@
   "tabWidth": 2,
   "useTabs": false,
   "semi": false,
-  "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
+  "plugins": ["prettier-plugin-astro"],
   "experimentalTernaries": true,
   "experimentalOperatorPosition": "start",
   "trailingComma": "none",
